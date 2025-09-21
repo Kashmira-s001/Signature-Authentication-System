@@ -16,38 +16,15 @@ A **multi-class CNN system** that does more than just detect forgery—it can **
 
 ## 📂 Repository Structure
 
-import os
-
-# Base project folder
-base_dir = "signature-authentication-system"
-
-# Folder structure
-folders = [
-    "notebooks",
-    "data",
-    "images"
-]
-
-# Files to create (empty placeholders)
-files = {
-    "notebooks/Signature_Classification.ipynb": "",
-    "data/metadata.csv": "",
-    "images/ui_screenshot.png": "",
-    "README.md": "",
-    "requirements.txt": ""
-}
-
-# Create folders
-for folder in folders:
-    os.makedirs(os.path.join(base_dir, folder), exist_ok=True)
-
-# Create files
-for file_path, content in files.items():
-    full_path = os.path.join(base_dir, file_path)
-    with open(full_path, "w") as f:
-        f.write(content)
-
-print(f"Project structure created successfully at '{base_dir}'")
+signature-authentication-system/
+├── notebooks/
+│   └── Signature_Classification.ipynb
+├── data/
+│   └── metadata.csv
+├── images/
+│   └── ui_screenshot.png
+├── README.md
+└── requirements.txt
 
 
 ---
