@@ -74,7 +74,7 @@ Signatures are widely used for authentication, but **forgeries are common**. Thi
 
 The dataset contains multiple handwritten signatures per person. Only a **link to the dataset** is provided here to keep the repository lightweight:
 
-[Download Dataset]((https://www.kaggle.com/datasets/matteocarnebella/cedar-signatures))  
+[Download Dataset][(https://www.kaggle.com/datasets/matteocarnebella/cedar-signatures)] 
 
 After downloading, place the dataset in your preferred folder and update paths in the notebook.  
 
